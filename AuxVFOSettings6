@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<VFOSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Enabled>true</Enabled>
+  <Frequency>422937500</Frequency>
+  <DetectorType>NFM</DetectorType>
+  <Bandwidth>8000</Bandwidth>
+  <IFOffset>0</IFOffset>
+  <SquelchEnabled>true</SquelchEnabled>
+  <SquelchThreshold>75</SquelchThreshold>
+  <CWToneShift>1000</CWToneShift>
+  <FilterOrder>1000</FilterOrder>
+  <WindowType>BlackmanHarris4</WindowType>
+  <LockCarrier>false</LockCarrier>
+  <UseAntiFading>false</UseAntiFading>
+  <FMStereo>false</FMStereo>
+  <FilterAudio>false</FilterAudio>
+  <AudioGain>100</AudioGain>
+  <AgcDecay>500</AgcDecay>
+  <AgcHang>false</AgcHang>
+  <AgcSlope>0</AgcSlope>
+  <AgcThreshold>-50</AgcThreshold>
+  <UseAgc>false</UseAgc>
+  <OutputDevice>[MME] CABLE Input (VB-Audio Virtual C</OutputDevice>
+  <LeftChannel>true</LeftChannel>
+  <RightChannel>true</RightChannel>
+  <Mix>false</Mix>
+  <DontWritePause>false</DontWritePause>
+  <ContinueRecordTime>0</ContinueRecordTime>
+  <NewFileTimeEnable>false</NewFileTimeEnable>
+  <NewFileTime>0</NewFileTime>
+  <SampleFormatSelectedIndex>0</SampleFormatSelectedIndex>
+  <SamplerateOut>0</SamplerateOut>
+  <OutputSamplerateArray>48 kHz,32 kHz,16 kHz,8 kHz</OutputSamplerateArray>
+  <FileNameRules>/ date / frequency / time</FileNameRules>
+  <WriteFolder>C:\Users\mwk\Desktop\sdrsharp-x86_16-7-2019</WriteFolder>
+  <LogFileNameRules>/"Log" / date / frequency</LogFileNameRules>
+  <LogWriteFolder>C:\Users\mwk\Desktop\sdrsharp-x86_16-7-2019</LogWriteFolder>
+  <LogEntryRules>date + time + frequency + level + squelch + record</LogEntryRules>
+  <LogSeparator>;</LogSeparator>
+  <LogEnabled>false</LogEnabled>
+  <LogUpdateTime>100</LogUpdateTime>
+  <LogUseSquelch>false</LogUseSquelch>
+  <LogOnlyEvents>false</LogOnlyEvents>
+</VFOSettings>
